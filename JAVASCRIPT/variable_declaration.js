@@ -7,7 +7,7 @@
 		}
 	f();
 	console.log(a);
-    
+
 //let-declaration
 
 	let b = 20; 
@@ -18,6 +18,7 @@
 	}
 	f();
 
+    
 //const-declaration
 
      const x = 100;  

@@ -4,6 +4,7 @@ function library(){
     console.log("You can see the list of books written by Shakespeare here!");
 }
 
+
 library(); //It can be called before or after initialization
 
 //Expression
