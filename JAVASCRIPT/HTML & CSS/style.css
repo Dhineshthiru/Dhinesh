@@ -154,7 +154,7 @@ body {
 
 .header {
   background-color: #f1f1f1;
-  padding: 60px;
+  padding: 75px;
 
 
 }
@@ -163,7 +163,7 @@ body {
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 50px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
@@ -181,8 +181,9 @@ body {
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: gray;
   color: white;
+  padding: 15px;
 }
 
 .header-right {
@@ -191,9 +192,9 @@ body {
 
 @media screen and (max-width: 500px) {
   .header a {
-    float:inline-start;
+    float:initial;
     display: block;
-    text-align: justify;
+    text-align: left;
   }
   
   .header-right {
@@ -211,8 +212,9 @@ body {
   bottom:0;
   left:0;
   width:100%;
-  height: 90px;
-  background-color: #D0DAEE;
+  height: 110px;
+  background-color:transparent;
+  text-align: center;
 }
 }
 
